@@ -28,8 +28,8 @@ const PodcastPage = () => {
     return (
         <Layout>
             <Head title="podcast"/>
-            <h1>The Podcast</h1>
-            <ol className={podcastStyles.posts}>
+            <h2>The podcast is coming soon!</h2>
+            {/*} <ol className={podcastStyles.posts}>
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
                         <li className={podcastStyles.post}>
@@ -41,7 +41,7 @@ const PodcastPage = () => {
                         
                     )
                 })}
-            </ol>
+            </ol> */}
         </Layout>
     )
 };
